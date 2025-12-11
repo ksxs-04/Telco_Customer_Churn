@@ -1,0 +1,75 @@
+# ============================================
+# CM2604 COURSEWORK - GIT IGNORE RULES
+# ============================================
+
+# ------------ Python ------------
+__pycache__/
+*.py[cod]
+*.pyc
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ------------ Jupyter Notebook ------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# ------------ Data Files ------------
+# EXCLUDE CSV files (to keep repo small)
+data/*.csv
+*.csv
+data/*.xlsx
+*.xlsx
+
+# ------------ Model Files ------------
+# EXCLUDE saved model files (they're large)
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.pt
+*.pth
+
+# ------------ Virtual Environments ------------
+venv/
+env/
+ENV/
+.venv
+.env
+
+# ------------ OS Files ------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------ Temporary Files ------------
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ------------ IDE Files (IntelliJ IDEA) ------------
+.idea/
+*.iws
+*.iml
+*.ipr
+.shelf/
+workspace.xml
+/dataSources/
+/dataSources.local.xml
+/httpRequests/
+
+# ------------ BUT KEEP THESE ------------
+# These folders/files are IMPORTANT for your coursework
+!reports/
+!notebooks/
+!README.md
+!requirements.txt
+!data/README.md
