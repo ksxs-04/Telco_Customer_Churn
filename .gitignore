@@ -20,8 +20,6 @@ dist/
 
 # ------------ Data Files ------------
 # EXCLUDE CSV files (to keep repo small)
-data/*.csv
-*.csv
 data/*.xlsx
 *.xlsx
 
