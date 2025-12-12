@@ -19,7 +19,7 @@ dist/
 *.ipynb_checkpoints*
 
 # ------------ Data Files ------------
-# EXCLUDE CSV files (to keep repo small)
+
 data/*.xlsx
 *.xlsx
 
